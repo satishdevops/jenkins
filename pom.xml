@@ -1,0 +1,6 @@
+<project ...>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.satish</groupId>
+	<artifactId>Maven Example</artifactId>
+	<packaging>jar</packaging>
+	...
