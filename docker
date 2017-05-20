@@ -1,6 +1,7 @@
 cd /
-cd /GIT/Jenkins
+cd /GIT/jenkins
 docker stop democontainer
 docker rm democontainer
-docker run -d --name democontainer -p 80:80 -v /GIT/Jenkins/src/:/var/www/html hello-world
+docker run -d --name democontainer -p 80:80 -v /GIT/jenkins/src/:/var/www/html hello-world
+docker start democontainer
 
